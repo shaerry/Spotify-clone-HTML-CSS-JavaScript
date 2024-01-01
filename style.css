@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Playfair+Display&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    margin: 20px;
+}
+.brand img{
+    width: 40px;
+    list-style: none;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    list-style: none;
+    align-items:last center;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    padding: 36px;
+    border-radius: 12px;
+    background-image: url(Blog-Heading-Templates--39-.png);
+    background-repeat: no-repeat;
+   background-size: 150vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+#myProgressBar{
+    width: 50vw;
+    cursor: pointer;
+    
+}
+.icons i{
+    margin: 12px 0;
+    padding: 0 10px;
+}
+.songitem img{
+    margin: 0px 21px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 34px;
+}
+.songitemcontainer{
+    margin-top: 74px;
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 20px 0;
+    margin: 12px 0;
+    color: black;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 34px;
+
+}
+.timestamp{
+    margin: 0 15px;
+    cursor: pointer;
+}
+.songinfo{
+    /* display: flex;
+    color: azure;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    left: 25vw;
+    width: 15px 0;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opasity 0.4s ease-in;
+}
